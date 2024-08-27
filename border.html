@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/project16.css">
+    <script src="js/project16.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="tools">
+            <div class="tool">
+                <label for="allborder_radius">all border r<span id="changeradius">10px</span></label>
+                <input type="range" id="allborder_radius" value="10" min="0" max="300">
+            </div>
+            <div class="tool">
+                <label for="border">border <span id="changeborder">1px</span></label>
+                <input type="range" id="border" value="1" min="0" max="30">
+            </div>
+            <div class="tool">
+            <label>border style</label>
+            <select id="options">
+                <option >solid</option>
+                <option >dashed</option>
+                <option >ridge</option>
+                <option >groove</option>
+                <option >dotted</option>
+                <option >double</option>
+                <option >inset</option>
+                <option >outset</option>
+                <option >none</option>
+                <option >hidden</option>
+            </select>
+        </div>
+            <div class="a">
+                <textarea id="area"></textarea>
+            </div>
+            <button id="copy">copy</button>
+        </div>
+    </div>
+</body>
+</html>
